@@ -18,6 +18,17 @@ namespace Program2
 
             var vetor = Array.ConvertAll(Console.ReadLine().Split(' '), aTemp => Convert.ToInt32(aTemp));
 
+            FormateVetor(quantidadeDeValores, rotacoes, vetor);
+
+            for (var i = 0; i < vetor.Length; i++)
+            {
+                Console.Write($"{vetor[i]} ");
+            }
+            Console.ReadKey();
+        }
+
+        private static void FormateVetor(int quantidadeDeValores, int rotacoes, int[] vetor)
+        {
             var indiceLimite = quantidadeDeValores % rotacoes;
             var j = 0;
             for (var i = indiceLimite; i < quantidadeDeValores; i++)
@@ -26,17 +37,11 @@ namespace Program2
                 j++;
             }
 
-            for(var i = 0; i < indiceLimite; i++)
+            for (var i = 0; i < indiceLimite; i++)
             {
                 vetor[i] = vetor[j];
                 j++;
             }
-
-            for (var i = 0; i < vetor.Length; i++)
-            {
-                Console.Write($"{vetor[i]} ");
-            }
-            Console.ReadKey();
         }
     }
 }
