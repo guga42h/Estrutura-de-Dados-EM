@@ -1,0 +1,7 @@
+C:\WorkGustavo\RepositorioEAD\Estrutura-de-Dados-EM\Ex1\EAD\bin\Debug\EAD.exe.config
+C:\WorkGustavo\RepositorioEAD\Estrutura-de-Dados-EM\Ex1\EAD\bin\Debug\EAD.exe
+C:\WorkGustavo\RepositorioEAD\Estrutura-de-Dados-EM\Ex1\EAD\bin\Debug\EAD.pdb
+C:\WorkGustavo\RepositorioEAD\Estrutura-de-Dados-EM\Ex1\EAD\obj\Debug\Rotacao.csproj.CoreCompileInputs.cache
+C:\WorkGustavo\RepositorioEAD\Estrutura-de-Dados-EM\Ex1\EAD\obj\Debug\EAD.exe
+C:\WorkGustavo\RepositorioEAD\Estrutura-de-Dados-EM\Ex1\EAD\obj\Debug\EAD.pdb
+C:\WorkGustavo\RepositorioEAD\Estrutura-de-Dados-EM\Ex1\EAD\obj\Debug\Rotacao.csprojAssemblyReference.cache

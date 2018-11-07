@@ -10,14 +10,32 @@ namespace EAD
     {
         static void Main(string[] args)
         {
-            string[] nd = Console.ReadLine().Split(' ');
+            var nd = Console.ReadLine().Split(' ');
 
-            int n = Convert.ToInt32(nd[0]);
+            var quantidadeDeValores = Convert.ToInt32(nd[0]);
 
-            int d = Convert.ToInt32(nd[1]);
+            var rotacoes = Convert.ToInt32(nd[1]);
 
-            int[] a = Array.ConvertAll(Console.ReadLine().Split(' '), aTemp => Convert.ToInt32(aTemp))
-            ;
+            var vetor = Array.ConvertAll(Console.ReadLine().Split(' '), aTemp => Convert.ToInt32(aTemp));
+
+            for(var i = 0; i < rotacoes; i++)
+            {
+                var primeiroValor = vetor[0];
+                for (var j = 0; j < quantidadeDeValores; j++)
+                {
+                    if (j == (quantidadeDeValores - 1))
+                    {
+                        vetor[j] = primeiroValor;
+                        break;
+                    }
+                    vetor[j] = vetor[j + 1];
+                }
+            }
+            for (var i = 0; i < vetor.Length; i++)
+            {
+                Console.Write($"{vetor[i]} ");
+            }
+            Console.ReadKey();
         }
     }
 }

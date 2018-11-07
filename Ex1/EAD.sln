@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAD", "EAD\EAD.csproj", "{0EF0104A-860E-4711-B24D-F84AE87B7B2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotacao", "EAD\Rotacao.csproj", "{0EF0104A-860E-4711-B24D-F84AE87B7B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotacao2", "Program2\Rotacao2.csproj", "{7CCA864F-CF52-42A3-83DC-13A05BBE1D0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0EF0104A-860E-4711-B24D-F84AE87B7B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF0104A-860E-4711-B24D-F84AE87B7B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF0104A-860E-4711-B24D-F84AE87B7B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCA864F-CF52-42A3-83DC-13A05BBE1D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCA864F-CF52-42A3-83DC-13A05BBE1D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCA864F-CF52-42A3-83DC-13A05BBE1D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCA864F-CF52-42A3-83DC-13A05BBE1D0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
