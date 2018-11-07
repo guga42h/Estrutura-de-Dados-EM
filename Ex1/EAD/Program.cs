@@ -18,7 +18,18 @@ namespace EAD
 
             var vetor = Array.ConvertAll(Console.ReadLine().Split(' '), aTemp => Convert.ToInt32(aTemp));
 
-            for(var i = 0; i < rotacoes; i++)
+            FormateVetor(quantidadeDeValores, rotacoes, vetor);
+
+            for (var i = 0; i < vetor.Length; i++)
+            {
+                Console.Write($"{vetor[i]} ");
+            }
+            Console.ReadKey();
+        }
+
+        private static void FormateVetor(int quantidadeDeValores, int rotacoes, int[] vetor)
+        {
+            for (var i = 0; i < rotacoes; i++)
             {
                 var primeiroValor = vetor[0];
                 for (var j = 0; j < quantidadeDeValores; j++)
@@ -31,11 +42,6 @@ namespace EAD
                     vetor[j] = vetor[j + 1];
                 }
             }
-            for (var i = 0; i < vetor.Length; i++)
-            {
-                Console.Write($"{vetor[i]} ");
-            }
-            Console.ReadKey();
         }
     }
 }
